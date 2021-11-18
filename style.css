@@ -58,10 +58,15 @@
     width: 10px;
     height: 10px;
 }
+/* Esercizio 6 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    filter: grayscale(0)
 }
-
+.ex-6-img:hover{
+filter: grayscale(100%);
+}
+/* Esercizio 7 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
